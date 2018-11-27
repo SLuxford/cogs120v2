@@ -11,15 +11,15 @@ function initializePage() {
 
 	$("#testjs1.1").click(function(e) {
 		alert('yo')
-		document.getElementById("tutURL").setAttribute("href",'chest.html');
+		document.getElementById("tutURL").href = "chest.html";
 	});
 
 	$("#testjs1.2").click(function(e) {
-		document.getElementById("tutURL").setAttribute("href",'core.html');
+		document.getElementById("tutURL").href = "core.html";
 	});
 
 	$("#testjs1.3").click(function(e) {
-		document.getElementById("tutURL").setAttribute("href",'legs.html');
+		document.getElementById("tutURL").href = "legs.html";
 	});
 
 	// Add any additional listeners here
@@ -36,5 +36,5 @@ function collectCheckboxes() {
 
 $("#tutURL").click(function(e) {
 	collectCheckboxes();
-	document.getElementById("tutURL").href = "chest.html";
+	//document.getElementById("tutURL").href = "chest.html";
 });
