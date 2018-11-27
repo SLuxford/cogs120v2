@@ -26,7 +26,7 @@
 }
 
 function changeToChest() {
-
+alert("this shit is running");
   var checkBox = document.getElementById("muscle");
 	if(checkBox.checked == true){
     document.getElementById("tutURL").href = "chest.html";
