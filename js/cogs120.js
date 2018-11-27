@@ -9,16 +9,16 @@ $(document).ready(function() {
 
 function initializePage() {
 
-	$("#testjs1.1").click(function(e) {
+	$("#muscle").click(function(e) {
 		alert('yo')
 		document.getElementById("tutURL").href = "chest.html";
 	});
 
-	$("#testjs1.2").click(function(e) {
+	$("#weight").click(function(e) {
 		document.getElementById("tutURL").href = "core.html";
 	});
 
-	$("#testjs1.3").click(function(e) {
+	$("#flexibility").click(function(e) {
 		document.getElementById("tutURL").href = "legs.html";
 	});
 
