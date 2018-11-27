@@ -36,4 +36,5 @@ function collectCheckboxes() {
 
 $("#tutURL").click(function(e) {
 	collectCheckboxes();
+	document.getElementById("tutURL").href = "chest.html";
 });
