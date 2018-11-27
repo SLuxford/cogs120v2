@@ -1,15 +1,15 @@
 // Call this function when the page loads (the jQuery "ready" event)
-//$(document).ready(function() {
-//	initializePage();
-//})
+$(document).ready(function() {
+	initializePage();
+})
 
 /*
  * Function that is called when the document is ready.
  */
 
-/* function initializePage() {
+function initializePage() {
 
-	$("#muscle input:checked").each(function(e) {
+	/* $("#muscle input:checked").each(function(e) {
 		document.getElementById("tutURL").href = "chest.html";
 	});
 
@@ -19,7 +19,32 @@
 
 	$("#flexibility input:checked").each(function(e) {
 		document.getElementById("tutURL").href = "legs.html";
-	}); */
+	});
+
+	function changeToChest() {
+	alert("this shit is running");
+	  var checkBox = document.getElementById("muscle");
+		if(checkBox.checked == true){
+	    document.getElementById("tutURL").href = "chest.html";
+		}
+	} */
+
+	function changeToLegs() {
+
+	  var checkBox = document.getElementById("weight");
+		if(checkBox.checked == true){
+	    document.getElementById("tutURL").href = "legs.html";
+		}
+	}
+
+	function changeToCore() {
+
+	  var checkBox = document.getElementById("flexibility");
+		if(checkBox.checked == true){
+	    document.getElementById("tutURL").href = "core.html";
+		}
+	}
+
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
