@@ -7,7 +7,7 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 
-function initializePage() {
+/* function initializePage() {
 
 	$("#muscle input:checked").each(function(e) {
 		document.getElementById("tutURL").href = "chest.html";
@@ -19,10 +19,34 @@ function initializePage() {
 
 	$("#flexibility input:checked").each(function(e) {
 		document.getElementById("tutURL").href = "legs.html";
-	});
+	}); */
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
+}
+
+function changeToChest() {
+
+  var checkBox = document.getElementById("muscle");
+	if(checkBox.checked == true){
+    document.getElementById("tutURL").href = "chest.html";
+	}
+}
+
+function changeToLegs() {
+
+  var checkBox = document.getElementById("weight");
+	if(checkBox.checked == true){
+    document.getElementById("tutURL").href = "legs.html";
+	}
+}
+
+function changeToCore() {
+
+  var checkBox = document.getElementById("flexibility");
+	if(checkBox.checked == true){
+    document.getElementById("tutURL").href = "core.html";
+	}
 }
 
 function collectCheckboxes() {
