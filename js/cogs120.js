@@ -9,16 +9,15 @@ $(document).ready(function() {
 
 function initializePage() {
 
-	$("#muscle").click(function(e) {
-		alert('yo')
+	$("#muscle input:checked").each(function(e) {
 		document.getElementById("tutURL").href = "chest.html";
 	});
 
-	$("#weight").click(function(e) {
+	$("#weight input:checked").each(function(e) {
 		document.getElementById("tutURL").href = "core.html";
 	});
 
-	$("#flexibility").click(function(e) {
+	$("#flexibility input:checked").each(function(e) {
 		document.getElementById("tutURL").href = "legs.html";
 	});
 
