@@ -29,23 +29,6 @@ function initializePage() {
 		}
 	} */
 
-	function changeToLegs() {
-
-	  var checkBox = document.getElementById("weight");
-		if(checkBox.checked == true){
-	    document.getElementById("tutURL").href = "legs.html";
-		}
-	}
-
-	function changeToCore() {
-
-	  var checkBox = document.getElementById("flexibility");
-		if(checkBox.checked == true){
-	    document.getElementById("tutURL").href = "core.html";
-		}
-	}
-
-
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
 }

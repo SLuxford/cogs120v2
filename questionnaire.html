@@ -111,6 +111,32 @@
 
   </div>
 
+  <script>
+	function changeToChest() {
+
+	  var checkBox = document.getElementById("muscle");
+		if(checkBox.checked == true){
+	    document.getElementById("tutURL").href = "chest.html";
+		}
+	}
+
+	function changeToLegs() {
+
+	  var checkBox = document.getElementById("weight");
+		if(checkBox.checked == true){
+	    document.getElementById("tutURL").href = "legs.html";
+		}
+	}
+
+	function changeToCore() {
+
+	  var checkBox = document.getElementById("flexibility");
+		if(checkBox.checked == true){
+	    document.getElementById("tutURL").href = "core.html";
+		}
+	}
+	</script>
+
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/cogs120.js"></script>
