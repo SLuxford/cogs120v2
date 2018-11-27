@@ -1,7 +1,7 @@
 // Call this function when the page loads (the jQuery "ready" event)
-$(document).ready(function() {
-	initializePage();
-})
+//$(document).ready(function() {
+//	initializePage();
+//})
 
 /*
  * Function that is called when the document is ready.
@@ -59,5 +59,5 @@ function collectCheckboxes() {
 
 $("#tutURL").click(function(e) {
 	collectCheckboxes();
-	//document.getElementById("tutURL").href = "chest.html";
+	document.getElementById("tutURL").href = "chest.html";
 });
