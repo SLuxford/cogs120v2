@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+
+h5 {
+	color: lightcoral;
+}
+
+h3 {
+	font-family: Righteous;
+	color: lightcoral;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+ /* Navbar */
+
+.navbar-brand {
+	font-family: Pacifico;
+	font-size: 35px;
+	color: lightcoral !important;
+}
+
+.nav-link {
+	font-size: 16px;
+	margin: 15px;
+	color: black !important;
+	font-family: Roboto Condensed;
+}
+
+.nav-link:hover {
+	color: lightcoral !important;
+}
+
+.active .nav-link {
+	color: lightcoral !important;
+}
+
+/* Section-1 */
+
+.section-1 .heading-1 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: Righteous;
+	color: lightcoral;
+	border-style: solid;
+	background-color: lightgrey;
+}
+
+
+
+@media (max-width: 768px) {
+
+}

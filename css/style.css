@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body {
+	padding: 0%;
+	margin: 0%;
+	font-family: 'Lato';
+}
+
+h1 {
+	font-family: 'Righteous';
+	color: lightcoral;
+	font-weight: 1000;
+
+}
+
+h5 {
+	color: lightcoral;
+}
+/* Navbar */
+
+.navbar-brand {
+	font-family: Pacifico;
+	font-size: 35px;
+	color: lightcoral !important;
+}
+
+.nav-link {
+	font-size: 16px;
+	margin: 15px;
+	color: black !important;
+	font-family: Roboto Condensed;
+}
+
+.nav-link:hover {
+	color: lightcoral !important;
+}
+
+.active .nav-link {
+	color: lightcoral !important;
+}
+
+.site-content {
+	background-image: url(../imgs/site-title-img.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.site-title, .site-desc, .site-btn1{
+	font-family: Righteous;
+}
+
+.site-title {
+	margin-top: 30%;
+	margin-bottom: 3%;
+	margin-left: 13%;
+	font-size: 3.0rem;
+}
+
+.site-desc {
+	font-size: 1.5rem;
+}
+
+
+.site-btn1 {
+	margin-top: 5%;
+	margin-bottom: 25%;
+	margin-left: 40%;
+	background-color: black;
+	color: white;
+}
+
+
+/* Section 1*/
+
+.section-1 .heading-1, .paragraph-1 {
+	font-family: 'Righteous';
+	color: lightcoral;
+}
+
+.section-1 .heading-1 {
+	margin-top: 5%;
+	font-size: 3.0rem;
+}
+
+.section-1 .paragraph-1 {
+	margin-bottom: 5%;
+	font-size: 1.5rem;
+	color: black !important;
+}
+
+ Workout Tutorials */
+
+.carousel-caption {
+  z-index: 10;
+
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+  height: 480px; // set your height
+
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 480px; // set your height
+  z-index: 9;
+}
+
+/* Section 2 */
+
+.section-2 {
+	margin-top: 5%;
+	background-image: url(../imgs/section-2-background-img.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+	margin-top: 20%;
+	margin-bottom: 0;
+	font-size: 50px;
+	font-family: 'Righteous';
+}
+
+.section-2 .para {
+	font-family: 'Righteous';
+	color: lightgrey;
+	margin-bottom: 5%;
+	font-size: 1.5rem;
+}
+
+.section-2 .btn {
+	margin-bottom: 20%;
+
+
+}
+
+.section-2 a {
+	color: white;
+}
+
+/* Section-3 */
+
+.section-3 .heading-1 {
+	font-family: 'Righteous';
+	margin-top: 5%;
+
+}
+
+.section-3 .row {
+	font-family: 'Righteous';
+	margin-top: 5%;
+}
+
+.section-3 .row {
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 5px;
+
+}
+
+.section-3 .btn {
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+
+/* Footer */
+
+.social {
+	margin-top: 5%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 5px
+
+}
+
+@media (max-width: 576px) {
+	.site-content .site-title {
+		font-size: 30px;
+		padding-left: 15%;
+	}
+
+	.site-content .site-btn1 {
+		margin-left: 5%;
+	}
+
+}

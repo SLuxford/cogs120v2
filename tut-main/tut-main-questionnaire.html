@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gain Buddies</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  	<a class="navbar-brand ml-3" href="#">Warm-Up To The Gym <i class="fab fa-gripfire"></i></a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+
+				<div class="collapse navbar-collapse" id="navbarMenu">
+ 			    <ul class="navbar-nav ml-auto">
+ 			      <li class="nav-item active">
+ 			        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+ 			      </li>
+ 			      <li class="nav-item">
+ 			        <a class="nav-link" href="../tut-main/tut-main.html">Workout Tutorials</a>
+ 			      </li>
+ 			      <li class="nav-item">
+ 			        <a class="nav-link" href="../tut-main/tut-main-questionnaire.html">Fill Out Questionnaire</a>
+ 			      </li>
+ 			  	</ul>
+ 			  </div>
+		</nav>
+	</header>
+
+	<div class="container">
+
+	  <h2>Workout Questionnaire</h2>
+
+		<h4>What is your main goal for getting into the gym?</h4>
+		<div id="checkboxes">
+			<div>
+				<input type="checkbox" id="muscle" name="muscle" onclick="changeToChest()">
+				<label for="muscle">To gain muscle mass.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="weight" name="weight" onclick="changeToLegs()">
+				<label for="weight">To cut down on body weight.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="flexibility" name="flexibility" onclick="changeToCore()">
+				<label for="flexibility">To gain more flexibility.</label>
+			</div>
+		</div>
+
+    <h4>Do you plan to workout with none, one, or a group of people?</h4>
+		<div id="checkboxes">
+			<div>
+				<input type="checkbox" id="none" name="none">
+				<label for="none">None.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="one" name="one">
+				<label for="one">One.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="group" name="group">
+				<label for="group">A group.</label>
+			</div>
+		</div>
+
+    <h4>How knowledgeable are you in work out exercises?</h4>
+		<div id="checkboxes">
+			<div>
+				<input type="checkbox" id="very" name="very">
+				<label for="very">Very knowledgeable.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="sortof" name="sortof">
+				<label for="sortof">Sort of knowledgeable.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="notatall" name="notatall">
+				<label for="notatall">Not at all knowledgeable.</label>
+			</div>
+		</div>
+
+    <h4>How long are you thinking of working out for?</h4>
+		<div id="checkboxes">
+			<div>
+				<input type="checkbox" id="month" name="month">
+				<label for="month">A month.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="year" name="year">
+				<label for="year">A year.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="several" name="several">
+				<label for="several">Several years.</label>
+			</div>
+		</div>
+
+    <div class="project" id="project1">
+      <a id="tutURL" href="../tut-main/tut-main-arms.html" class="thumbnail">
+        <img src="" alt="" class="img">
+        <h3><p>Submit the questionnaire?</p></h3>
+      </a>
+    </div>
+
+  </div>
+
+	<script src="js/cogs120.js"></script>
+</body>
+</html>
